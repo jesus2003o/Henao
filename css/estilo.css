@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2? family= Neucha & display=swap'); 
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Neucha' ;
+}
+html{
+	scroll-behavior: smooth;
+
+}
+
+section{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#Inicio{
+
+	background-color: brown;
+}
+
+#a1940-1956{
+	background-color: #8D9BFA;
+}
+
+#a1956-1963{
+	background-color: #9EDBDA;
+}
+
+#a1964-1971{
+	background-color: #F4DF89;
+}
+
+#a1971-2022{
+	background-color: #1DF9E9;
+}
+
+#a2022-Present{
+	background-color: #F78888;
+}
+
+#Inicio h1{
+	font-size: 68px ;
+	letter-spacing: 5px;
+}
+
+section h1{
+	font-size: 60px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+section h3{
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+section img{
+	margin-top: 30px;
+	max-width: 500px;
+}
+
+section p{
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.contenedor-tiempo{
+	position: fixed;
+	top: 20px;
+	left: 50%;
+	transform: translate(-50%);
+	display: flex;
+	justify-content: center;
+} 
+
+contenedor-tiempo .linea{
+	width: 900px;
+	position: absolute;
+	top: 30px;
+	height: 2px;
+	background-color: white;
+	z-index: -2px;
+	
+}
+
+.Fecha{
+	display: inline-block;
+	font-size: 20px;
+	width: 90px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: F20101;
+	text-decoration: none;
+	color: brown;
+	margin: 0 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform:scale(1); 
+	transition: background-color, transform .5s linear;
+}
+
+.seleccionado{
+	transform: scale(1.2);
+	background-color: #ea5455;
+	color: #000;
+	font-weight: bold;
+}
+	
